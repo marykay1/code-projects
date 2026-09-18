@@ -1,0 +1,13 @@
+.custom-border {
+  border-right: 2px solid rgb(138, 4, 127);
+  min-height: 100px; /* was: height: 100px */
+}
+
+@media (max-width: 991.98px) {
+  .custom-border {
+    border-right: none; /* no side-by-side column to divide on mobile */
+    min-height: auto;
+  }
+}
+body { font-family: "Bricolage Grotesque", sans-serif; }
+h1, h2 { font-family: "Fivo Sans Modern", sans-serif; }
